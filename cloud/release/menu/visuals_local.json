@@ -1,0 +1,125 @@
+{
+        "items": [
+                [
+                        {
+                                "name": "effects",
+                                "items": [
+                                        {
+                                                "type" : 1,
+                                                "label" : "player_esp.local_glow.enable",
+                                                "var" : "player_esp.local_glow.enable"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "player_esp.local_glow.color",
+                                                "var" : "player_esp.local_glow.color"
+                                        },
+                                        {
+                                                "type": 1,
+                                                "label": "player_esp.local_blend_in_scope",
+                                                "var": "player_esp.local_blend_in_scope"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 0,
+                                                "max" : 100,
+                                                "format_type" : 1,
+                                                "label" : "player_esp.local_blend_in_scope_amount",
+                                                "var" : "player_esp.local_blend_in_scope_amount"
+                                        }
+                                ]
+                        },
+                        {
+                                "name": "fov",
+                                "items": [
+                                        {
+                                                "type" : 2,
+                                                "min" : 0,
+                                                "max" : 50,
+                                                "format_type" : 4,
+                                                "label" : "visuals.world_fov",
+                                                "var" : "visuals.world_fov"
+                                        }, 
+                                        {
+                                                "type" : 2,
+                                                "min" : 0,
+                                                "max" : 100,
+                                                "format_type" : 4,
+                                                "label" : "visuals.zoom_fov",
+                                                "var" : "visuals.zoom_fov"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 0,
+                                                "max" : 120,
+                                                "format_type" : 4,
+                                                "label" : "visuals.viewmodel_fov",
+                                                "var" : "visuals.viewmodel_fov"
+                                        }
+                                ]
+                        }
+                ],
+                [
+                        {
+                                "name": "shooting",
+                                "items": [
+                                        {
+                                                "type" : 4,
+                                                "label" : "visuals.hitmarker",
+                                                "items" : ["visuals.hitmarker.position", "visuals.hitmarker.center_of_screen", "visuals.hitmarker.show_damage"],
+                                                "var" : "visuals.hitmarker"
+                                        },
+                                        {
+                                                "type" : 3,
+                                                "label" : "bullets.tracer",
+                                                "items" : ["bullets.tracer.off", "bullets.tracer.line", "bullets.tracer.beam"],
+                                                "var" : "bullets.tracer"
+                                        },
+                                        {
+                                                "type" : 5,
+                                                "label" : "bullets.tracer_color",
+                                              "var" : "bullets.tracer_color"
+                                        },
+                                        {
+                                                "type": 1,
+                                                "label": "bullets.server_impacts",
+                                                "var": "bullets.server_impacts"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "bullets.server_impact_colors[0]",
+                                                "var" : "bullets.server_impact_colors[0]"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "bullets.server_impact_colors[1]",
+                                                "var" : "bullets.server_impact_colors[1]"
+                                        },
+                                        {
+                                                "type": 1,
+                                                "label": "bullets.client_impacts",
+                                                "var": "bullets.client_impacts"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "bullets.client_impact_colors[0]",
+                                                "var" : "bullets.client_impact_colors[0]"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "Client impacts bounds",
+                                                "var" : "bullets.client_impact_colors[1]"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 1,
+                                                "max" : 30,
+                                                "format_type" : 0,
+                                                "label" : "bullets.impacts_size",
+                                                "var" : "bullets.impacts_size"
+                                        }
+                                ]
+                        }
+                ]
+        ]
+}

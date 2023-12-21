@@ -1,0 +1,35 @@
+{
+        "items": [
+                [
+                        {
+                                "name": "exploits",
+                                "items": [
+                                        {
+                                                "type" : 4,
+                                                "label" : "exploits.defensive_flags",
+                                                "items" : ["exploits.defensive_flags.on_ground", "exploits.defensive_flags.in_air"],
+                                                "var" : "exploits.defensive_flags"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "exploits.immediate_teleport",
+                                                "var" : "exploits.immediate_teleport"
+                                        }
+                                ]
+                        }
+                ],
+                [
+                        {
+                                "name": "antiaim.fakelag",
+                                "items": [
+                                        {
+                                                "type" : 3,
+                                                "label" : "antiaim.fakelag",
+                                                "items" : ["antiaim.fakelag.off", "antiaim.fakelag.static", "antiaim.fakelag.dynamic"],
+                                                "var" : "antiaim.fakelag"
+                                        }
+                                ]
+                        }
+                ]
+        ]
+}

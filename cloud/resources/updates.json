@@ -1,0 +1,16 @@
+{
+  "updates": [
+    {
+      "title": "Update 28.09.2023",
+      "list": [
+        "Fixed several bugs related to hotkeys hasn't saved",
+        "Added possibility to hide hotkey in hotkeys list",
+        "Fixed an issue where someone could send fake voice packets, thereby breaking shared ESP",
+        "Fixed several bugs related to ragebot",
+        "Improved ragebot stability",
+        "Lua API has been updated, see the full update log on docs.weave.su/updates"
+      ],
+      "media": []
+    }
+  ]
+}

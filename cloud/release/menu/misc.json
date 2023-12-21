@@ -1,0 +1,149 @@
+{
+        "items" : [
+                [
+                        {
+                                "name" : "movement",
+                                "items" : [
+                                        {
+                                                "type" : 1,
+                                                "label" : "movement.bhop",
+                                                "var" : "movement.bhop"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "movement.autostrafe",
+                                                "var" : "movement.autostrafe"
+                                        }, 
+                                        {
+                                                "type" : 2,
+                                                "min" : 1,
+                                                "max" : 100,
+                                                "format_type" : 0,
+                                                "label" : "movement.strafe_smooth",
+                                                "var" : "movement.strafe_smooth"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "movement.fast_stop",
+                                                "var" : "movement.fast_stop"
+                                        },
+                                        {
+                                                "type" : 3,
+                                                "label" : "movement.leg_movement",
+                                                "var" : "movement.leg_movement",
+                                                "items" : ["movement.leg_movement.avoid_slide", "movement.leg_movement.always_slide"]
+                                        },
+                                        {
+                                                "type" : 5,
+                                                "label" : "movement.peek_assist_colors[0]",
+                                                "var" : "movement.peek_assist_colors[0]"
+                                        },
+                                        {
+                                                "type" : 5,
+                                                "label" : "movement.peek_assist_colors[1]",
+                                                "var" : "movement.peek_assist_colors[1]"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "movement.peek_assist_retreat_on_key",
+                                                "var" : "movement.peek_assist_retreat_on_key"
+                                        }
+                                ]
+                        }
+                ],
+
+                [
+                        {
+                                "name" : "Other",
+                                "items" : [
+                                        {
+                                                "type" : 4,
+                                                "label" : "misc.log_filter",
+                                                "var" : "misc.log_filter",
+                                                "items" : ["misc.log_filter.aimbot_info", "misc.log_filter.damage_received", "misc.log_filter.damage_dealt", "misc.log_filter.missed_shots"]
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "misc.hotkeys_list",
+                                                "var" : "misc.hotkeys_list"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "misc.hitsound",
+                                                "var" : "misc.hitsound"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 1,
+                                                "max" : 100,
+                                                "format_type" : 1,
+                                                "label" : "misc.hitsound_volume",
+                                                "var" : "misc.hitsound_volume"
+                                        },
+
+                                        {
+                                                "type" : 1,
+                                                "label" : "misc.unlock_inventory",
+                                                "var" : "misc.unlock_inventory"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "misc.unlock_cvars",
+                                                "var" : "misc.unlock_cvars"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "misc.preserve_killfeed",
+                                                "var" : "misc.preserve_killfeed"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "misc.autobuy.enable",
+                                                "var" : "misc.autobuy.enable"
+                                        },
+                                        {
+                                                "type" : 3,
+                                                "label" : "misc.autobuy.main",
+                                                "var" : "misc.autobuy.main",
+                                                "items" : [
+                                                        "misc.autobuy.main.none", 
+                                                        "misc.autobuy.main.auto_sniper", 
+                                                        "misc.autobuy.main.scout", 
+                                                        "misc.autobuy.main.awp", 
+                                                        "misc.autobuy.main.negev",
+                                                        "misc.autobuy.main.m249", 
+                                                        "misc.autobuy.main.rifle", 
+                                                        "misc.autobuy.main.aug_sg553"
+                                                ]
+                                        },
+                                        {
+                                                "type" : 3,
+                                                "label" : "misc.autobuy.pistol",
+                                                "var" : "misc.autobuy.pistol",
+                                                "items" : [
+                                                        "misc.autobuy.pistol.none",
+                                                        "misc.autobuy.pistol.dual_berettas",
+                                                        "misc.autobuy.pistol.p250",
+                                                        "misc.autobuy.pistol.five_seven_tec9",
+                                                        "misc.autobuy.pistol.deagle_revolver"
+                                                ]
+                                        },
+                                        {
+                                                "type" : 4,
+                                                "label" : "misc.autobuy.additional",
+                                                "var" : "misc.autobuy.additional",
+                                                "items" : [
+                                                        "misc.autobuy.additional.head_helmet",
+                                                        "misc.autobuy.additional.other_helmet",
+                                                        "misc.autobuy.additional.he_grenade",
+                                                        "misc.autobuy.additional.molotov",
+                                                        "misc.autobuy.additional.smoke",
+                                                        "misc.autobuy.additional.taser",
+                                                        "misc.autobuy.additional.defuse_kit"
+                                                ]
+                                        }
+                                ]
+                        }
+                ]
+        ]
+}

@@ -1,0 +1,111 @@
+{
+        "items": [
+                [
+                        {
+                                "name": "custom_scope",
+                                "items": [
+                                        {
+                                                "type" : 3,
+                                                "label" : "visuals.override_scope",
+                                                "items" : ["visuals.override_scope.off", "visuals.override_scope.default", "visuals.override_scope.custom"],
+                                                "var" : "visuals.override_scope"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "visuals.scope_color[0]",
+                                                "var" : "visuals.scope_color[0]"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "visuals.scope_color[1]",
+                                                "var" : "visuals.scope_color[1]"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 2,
+                                                "max" : 300,
+                                                "format_type" : 5,
+                                                "label" : "visuals.scope_size",
+                                                "var" : "visuals.scope_size"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 1,
+                                                "max" : 5,
+                                                "format_type" : 5,
+                                                "label" : "visuals.scope_thickness",
+                                                "var" : "visuals.scope_thickness"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 0,
+                                                "max" : 100,
+                                                "format_type" : 5,
+                                                "label" : "visuals.scope_gap",
+                                                "var" : "visuals.scope_gap"
+                                        }
+                                ]
+                        }
+                ],
+                [
+                        {
+                                "name": "weapons",
+                                "items": [
+                                        {
+                                                "type" : 1,
+                                                "label" : "weapon_esp.enable",
+                                                "var" : "weapon_esp.enable"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "weapon_esp.box",
+                                                "var" : "weapon_esp.box"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "weapon_esp.box_color",
+                                                "var" : "weapon_esp.box_color"
+                                        },
+                                        {
+                                                "type" : 22,
+                                                "label" : "weapon_esp.name.value",
+                                                "var" : "weapon_esp.name.value",
+                                                "color0" : "weapon_esp.name.colors[0]",
+                                                "color1" : "weapon_esp.name.colors[1]",
+                                                "position" : "weapon_esp.name.position",
+                                                "font" : "weapon_esp.name.font",
+                                                "items" : ["weapon_esp.name.name", "weapon_esp.name.icon"]
+                                        },
+                                        {
+                                                "type" : 20,
+                                                "label" : "weapon_esp.ammo.value",
+                                                "var" : "weapon_esp.ammo.value",
+                                                "color0" : "weapon_esp.ammo.colors[0]",
+                                                "color1" : "weapon_esp.ammo.colors[1]",
+                                                "position" : "weapon_esp.ammo.position"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "weapon_esp.glow.enable",
+                                                "var" : "weapon_esp.glow.enable"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "weapon_esp.glow.color",
+                                                "var" : "weapon_esp.glow.color"
+                                        }
+                                ]
+                        },
+                        {
+                                "name": "Grenades",
+                                "items": [
+                                        {
+                                                "type" : 1,
+                                                "label" : "grenade_esp.enable",
+                                                "var" : "grenade_esp.enable"
+                                        }
+                                ]
+                        }
+                ]
+        ]
+}

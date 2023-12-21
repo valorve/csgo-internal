@@ -1,0 +1,97 @@
+{
+        "items" : [
+                [
+                        {
+                                "name" : "agents",
+                                "items" : [
+                                        {
+                                                "type" : 3,
+                                                "label" : "skins.agent_t",
+                                                "var" : "skins.agent_t",
+                                                "items" : ["Default", "Special Agent Ava", "Operator", "Markus Delrow",
+                                                                "Michael Syfers", "B Squadron Officer", "Seal Team 6 Soldier",
+                                                                "Buckshot", "Lt. Commander Ricksaw", "Third Commando Company",
+                                                                "'Two Times' McCoy", "Dragomir", "Rezan The Ready", "'The Doctor' Romanov",
+                                                                "Maximus", "Blackwolf", "The Elite Mr. Muhlik", "Ground Rebel",
+                                                                "Osiris", "Prof. Shahmat", "Enforcer", "Slingshot", "Soldier",
+                                                                "Street Soldier", "'Blueberries' Buckshot", "'Two Times' McCoy",
+                                                                "Rezan the Redshirt", "Dragomir", "Cmdr. Mae 'Dead Cold' Jamison",
+                                                                "001st Lieutenant Farlow", "John 'Van Healen' Kask", "Bio-Haz Specialist",
+                                                                "Sergeant Bombson", "Chem-Haz Specialist", "Sir Bloody Miami Darryl",
+                                                                "Sir Bloody Silent Darryl", "Sir Bloody Skullhead Darryl",
+                                                                "Sir Bloody Darryl Royale", "Sir Bloody Loudmouth Darryl",
+                                                                "Safecracker Voltzmanns", "Little Kev", "Number K",
+                                                                "Getaway Sally", "Cmdr. Davida 'Goggles' Fernandez",
+                                                                "Cmdr. Frank 'Wet Sox' Baroud", "Lieutenant Rex Krikey",
+                                                                "Sous-Lieutenant Medic", "Chem-Haz Capitaine",
+                                                                "Chef d'Escadron Rouchard", "Aspirant",
+                                                                "Officer Jacques Beltram", "D Squadron Officer",
+                                                                "Primeiro Tenente", "Lieutenant 'Tree Hugger' Farlow",
+                                                                "Bloody Darryl The Strapped", "Mr. Muhlik", "Trapper",
+                                                                "Trapper Aggressor", "Vypa Sista of the Revolution",
+                                                                "Col. Mangos Dabisi", "'Medium Rare' Crasswater",
+                                                                "Crasswater The Forgotten", "Elite Trapper Solman",
+                                                                "tm_pirate", "tm_pirate_varianta", "tm_pirate_variantb",
+                                                                "tm_pirate_variantc", "tm_pirate_variantd",
+                                                                "tm_anarchist", "tm_anarchist_varianta", "tm_anarchist_variantb",
+                                                                "tm_anarchist_variantc", "tm_anarchist_variantd", "tm_balkan_varianta",
+                                                                "tm_balkan_variantb", "tm_balkan_variantc", "tm_balkan_variantd",
+                                                                "tm_balkan_variante", "tm_jumpsuit_varianta", "tm_jumpsuit_variantb", "tm_jumpsuit_variantc"]
+                                        },
+                                        {
+                                                "type" : 3,
+                                                "label" : "skins.agent_ct",
+                                                "var" : "skins.agent_ct",
+                                                "items" : ["Default", "Special Agent Ava", "Operator", "Markus Delrow",
+                                                                "Michael Syfers", "B Squadron Officer", "Seal Team 6 Soldier",
+                                                                "Buckshot", "Lt. Commander Ricksaw", "Third Commando Company",
+                                                                "'Two Times' McCoy", "Dragomir", "Rezan The Ready", "'The Doctor' Romanov",
+                                                                "Maximus", "Blackwolf", "The Elite Mr. Muhlik", "Ground Rebel",
+                                                                "Osiris", "Prof. Shahmat", "Enforcer", "Slingshot", "Soldier",
+                                                                "Street Soldier", "'Blueberries' Buckshot", "'Two Times' McCoy",
+                                                                "Rezan the Redshirt", "Dragomir", "Cmdr. Mae 'Dead Cold' Jamison",
+                                                                "001st Lieutenant Farlow", "John 'Van Healen' Kask", "Bio-Haz Specialist",
+                                                                "Sergeant Bombson", "Chem-Haz Specialist", "Sir Bloody Miami Darryl",
+                                                                "Sir Bloody Silent Darryl", "Sir Bloody Skullhead Darryl",
+                                                                "Sir Bloody Darryl Royale", "Sir Bloody Loudmouth Darryl",
+                                                                "Safecracker Voltzmanns", "Little Kev", "Number K",
+                                                                "Getaway Sally", "Cmdr. Davida 'Goggles' Fernandez",
+                                                                "Cmdr. Frank 'Wet Sox' Baroud", "Lieutenant Rex Krikey",
+                                                                "Sous-Lieutenant Medic", "Chem-Haz Capitaine",
+                                                                "Chef d'Escadron Rouchard", "Aspirant",
+                                                                "Officer Jacques Beltram", "D Squadron Officer",
+                                                                "Primeiro Tenente", "Lieutenant 'Tree Hugger' Farlow",
+                                                                "Bloody Darryl The Strapped", "Mr. Muhlik", "Trapper",
+                                                                "Trapper Aggressor", "Vypa Sista of the Revolution",
+                                                                "Col. Mangos Dabisi", "'Medium Rare' Crasswater",
+                                                                "Crasswater The Forgotten", "Elite Trapper Solman",
+                                                                "tm_pirate", "tm_pirate_varianta", "tm_pirate_variantb",
+                                                                "tm_pirate_variantc", "tm_pirate_variantd",
+                                                                "tm_anarchist", "tm_anarchist_varianta", "tm_anarchist_variantb",
+                                                                "tm_anarchist_variantc", "tm_anarchist_variantd", "tm_balkan_varianta",
+                                                                "tm_balkan_variantb", "tm_balkan_variantc", "tm_balkan_variantd",
+                                                                "tm_balkan_variante", "tm_jumpsuit_varianta", "tm_jumpsuit_variantb", "tm_jumpsuit_variantc"]
+                                        }
+                                ]
+                        }
+                ],
+                [
+                        {
+                                "name" : "weapons",
+                                "items" : [
+{
+                                                "type" : 3,
+                                                "label" : "skins.knife_model",
+                                                "var" : "skins.knife_model",
+                                                "items" : ["Default", "Bayonet", "Bowie Knife", "Butterfly Knife",
+                                                                "Falchion Knife", "Flip Knife", "Gut Knife",
+                                                                "Huntsman Knife", "Karambit", "M9 Bayonet",
+                                                                "Shadow Daggers", "Navaja Knife", "Stiletto Knife",
+                                                                "Ursus Knife", "Talon Knife", "Classic Knife",
+                                                                "Skeleton Knife", "Nomad Knife", "Survival Knife", "Paracord Knife"]
+                                        }
+                                ]
+                        }
+                ]
+        ]
+}

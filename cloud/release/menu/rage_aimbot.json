@@ -1,0 +1,42 @@
+{
+        "items": [
+                [
+                        {
+                                "name": "general",
+                                "items": [
+                                        {
+                                                "type": 1,
+                                                "label": "ragebot.enable",
+                                                "var": "ragebot.enable"
+                                        },
+                                        {
+                                                "type": 1,
+                                                "label": "ragebot.autofire",
+                                                "var": "ragebot.autofire"
+                                        },
+                                        {
+                                                "type": 1,
+                                                "label": "ragebot.silent",
+                                                "var": "ragebot.silent"
+                                        },
+                                        {
+                                                "type" : 3,
+                                                "label" : "ragebot.computing_limit",
+                                                "items" : ["ragebot.computing_limit.off", "ragebot.computing_limit.medium", "ragebot.computing_limit.high"],
+                                                "var" : "ragebot.computing_limit"
+                                        }
+                                ]
+                        }
+                ],
+                [
+                        {
+                                "name": "",
+                                "items": [
+                                        {
+                                                "type": 7
+                                        }
+                                ]
+                        }
+                ]
+        ]
+}

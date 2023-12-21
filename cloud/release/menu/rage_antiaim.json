@@ -1,0 +1,26 @@
+{
+        "items": [
+                [
+                        {
+                                "name": "general",
+                                "items": [
+                                        {
+                                                "type": 1,
+                                                "label": "antiaim.enable",
+                                                "var": "antiaim.enable"
+                                        }
+                                ]
+                        }
+                ],
+                [
+                        {
+                                "name": "",
+                                "items": [
+                                        {
+                                                "type": 8
+                                        }
+                                ]
+                        }
+                ]
+        ]
+}

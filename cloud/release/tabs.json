@@ -1,0 +1,66 @@
+{
+    "tabs": [
+        {
+            "filename": "rage_aimbot.json",
+            "title": "Ragebot -> Aimbot"
+        },
+        {
+            "filename": "rage_antiaim.json",
+            "title": "Ragebot -> Anti-aim"
+        },
+        {
+            "filename": "rage_misc.json",
+            "title": "Ragebot -> Misc"
+        },
+        {
+            "filename": "visuals_players.json",
+            "title": "Visuals -> Players"
+        },
+        {
+            "filename": "visuals_local.json",
+            "title": "Visuals -> Local player"
+        },
+        {
+            "filename": "visuals_world.json",
+            "title": "Visuals -> World"
+        },
+        {
+            "filename": "visuals_misc.json",
+            "title": "Visuals -> Misc"
+        },
+
+        {
+            "filename": "misc.json",
+            "title": "Misc"
+        },
+        {
+            "filename": "skins.json",
+            "title": "Skins"
+        },
+        {
+            "filename": "scripts.json",
+            "title": "Scripts"
+        },
+        {
+            "filename": "configs.json",
+            "title": "Configs"
+        },
+        {
+            "filename": "hotkeys.json",
+            "title": "Hotkeys"
+        },
+
+        {
+            "filename": "rage_weapon.json",
+            "title": "Ragebot -> Weapon"
+        },
+        {
+            "filename": "antiaim_trigger.json",
+            "title": "Anti-aim -> Trigger"
+        },
+        {
+            "filename": "visuals_chams.json",
+            "title": "Visuals -> Chams"
+        }
+    ]
+}

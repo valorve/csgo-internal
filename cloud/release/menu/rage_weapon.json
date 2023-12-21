@@ -1,0 +1,93 @@
+{
+        "items": [
+                [
+                        {
+                                "name": "",
+                                "items": [
+                                        {
+                                                "type" : 1,
+                                                "label" : "ragebot.weapons.quick_stop",
+                                                "var" : "ragebot.weapons[$0].settings[$1].quick_stop"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "ragebot.weapons.autoscope",
+                                                "var" : "ragebot.weapons[$0].settings[$1].autoscope"
+                                        },
+                                        {
+                                                "type" : 4,
+                                                "label" : "ragebot.weapons.hitboxes",
+                                                "items" : [
+                                                        "ragebot.weapons.hitboxes.head",
+                                                        "ragebot.weapons.hitboxes.upper_chest",
+                                                        "ragebot.weapons.hitboxes.chest",
+                                                        "ragebot.weapons.hitboxes.lower_chest",
+                                                        "ragebot.weapons.hitboxes.pelvis",
+                                                        "ragebot.weapons.hitboxes.stomach",
+                                                        "ragebot.weapons.hitboxes.legs",
+                                                        "ragebot.weapons.hitboxes.feet",
+                                                        "ragebot.weapons.hitboxes.arms"
+                                                ],
+                                                "var" : "ragebot.weapons[$0].settings[$1].hitboxes"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 0,
+                                                "max" : 100,
+                                                "format_type" : 1,
+                                                "label" : "ragebot.weapons.hitchance",
+                                                "var" : "ragebot.weapons[$0].settings[$1].hitchance"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "ragebot.weapons.strict_hitchance",
+                                                "var" : "ragebot.weapons[$0].settings[$1].strict_hitchance"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 1,
+                                                "max" : 120,
+                                                "format_type" : 2,
+                                                "label" : "ragebot.weapons.mindamage",
+                                                "var" : "ragebot.weapons[$0].settings[$1].mindamage"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 1,
+                                                "max" : 120,
+                                                "format_type" : 2,
+                                                "label" : "ragebot.weapons.mindamage_override",
+                                                "var" : "ragebot.weapons[$0].settings[$1].mindamage_override"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 0,
+                                                "max" : 100,
+                                                "format_type" : 3,
+                                                "label" : "ragebot.weapons.head_scale",
+                                                "var" : "ragebot.weapons[$0].settings[$1].head_scale"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 0,
+                                                "max" : 100,
+                                                "format_type" : 3,
+                                                "label" : "ragebot.weapons.body_scale",
+                                                "var" : "ragebot.weapons[$0].settings[$1].body_scale"
+                                        },
+                                        {
+                                                "type" : 4,
+                                                "label" : "ragebot.weapons.force_safepoint",
+                                                "items" : ["ragebot.weapons.force_safepoint.head", "ragebot.weapons.force_safepoint.body", "ragebot.weapons.force_safepoint.limbs"],
+                                                "var" : "ragebot.weapons[$0].settings[$1].force_safepoint"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "ragebot.weapons.prefer_safepoint",
+                                                "var" : "ragebot.weapons[$0].settings[$1].prefer_safepoint"
+                                        }
+                                ]
+                        }
+                ]
+        ]
+}

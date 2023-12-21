@@ -1,0 +1,99 @@
+{
+        "items": [
+                [
+                        {
+                                "name": "General",
+                                "items": [
+                                        {
+                                                "type" : 1,
+                                                "label" : "player_esp.enable",
+                                                "var" : "player_esp.enable"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "player_esp.box",
+                                                "var" : "player_esp.box"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "player_esp.box_color",
+                                                "var" : "player_esp.box_color"
+                                        },
+                                        {
+                                                "type" : 21,
+                                                "label" : "player_esp.name.value",
+                                                "var" : "player_esp.name.value",
+                                                "color0" : "player_esp.name.colors[0]",
+                                                "color1" : "player_esp.name.colors[1]",
+                                                "position" : "player_esp.name.position",
+                                                "font" : "player_esp.name.font"
+                                        },
+                                        {
+                                                "type" : 20,
+                                                "label" : "player_esp.health.value",
+                                                "var" : "player_esp.health.value",
+                                                "color0" : "player_esp.health.colors[0]",
+                                                "color1" : "player_esp.health.colors[1]",
+                                                "position" : "player_esp.health.position"
+                                        },
+                                        {
+                                                "type" : 20,
+                                                "label" : "player_esp.ammo.value",
+                                                "var" : "player_esp.ammo.value",
+                                                "color0" : "player_esp.ammo.colors[0]",
+                                                "color1" : "player_esp.ammo.colors[1]",
+                                                "position" : "player_esp.ammo.position"
+                                        },
+                                        {
+                                                "type" : 22,
+                                                "label" : "player_esp.flags.value",
+                                                "var" : "player_esp.flags.value",
+                                                "color0" : "player_esp.flags.colors[0]",
+                                                "color1" : "player_esp.flags.colors[1]",
+                                                "position" : "player_esp.flags.position",
+                                                "font" : "player_esp.flags.font",
+
+                                                "items" : [
+                                                        "player_esp.flags.helmet_kevlar",
+                                                        "player_esp.flags.scope",
+                                                        "player_esp.flags.flash",
+                                                        "player_esp.flags.defuser",
+                                                        "player_esp.flags.distance",
+                                                        "player_esp.flags.ping"
+                                                ]
+                                        },
+                                        {
+                                                "type" : 22,
+                                                "label" : "player_esp.weapon.value",
+                                                "var" : "player_esp.weapon.value",
+                                                "color0" : "player_esp.weapon.colors[0]",
+                                                "color1" : "player_esp.weapon.colors[1]",
+                                                "position" : "player_esp.weapon.position",
+                                                "font" : "player_esp.weapon.font",
+                                                "items" : ["player_esp.weapon.name", "player_esp.weapon.value"]
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "player_esp.glow.enable",
+                                                "var" : "player_esp.glow.enable"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "player_esp.glow.color",
+                                                "var" : "player_esp.glow.color"
+                                        }
+                                ]
+                        }
+                ],
+                [
+                        {
+                                "name": "",
+                                "items": [
+                                        {
+                                                "type": 9
+                                        }
+                                ]
+                        }
+                ]
+        ]
+}

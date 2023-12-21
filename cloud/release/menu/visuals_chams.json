@@ -1,0 +1,85 @@
+{
+        "items": [
+                [
+                        {
+                                "name": "",
+                                "items": [
+                                        {
+                                                "type" : 3,
+                                                "label" : "player_esp.chams.material",
+                                                "var" : "player_esp.chams[$0].material",
+                                                "items" : [
+                                                        "player_esp.chams.material.default", 
+                                                        "player_esp.chams.material.flat", 
+                                                        "player_esp.chams.material.metallic",
+                                                         "player_esp.chams.material.randomized"
+                                                        ]
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "player_esp.chams.color",
+                                                "var" : "player_esp.chams[$0].color"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "player_esp.chams.metallic_color",
+                                                "var" : "player_esp.chams[$0].metallic_color"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 0,
+                                                "max" : 100,
+                                                "format_type" : 1,
+                                                "label" : "player_esp.chams.phong_amount",
+                                                "var" : "player_esp.chams[$0].phong_amount"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : -100,
+                                                "max" : 100,
+                                                "format_type" : 1,
+                                                "label" : "player_esp.chams.rim_amount",
+                                                "var" : "player_esp.chams[$0].rim_amount"
+                                        },
+                                        {
+                                                "type" : 4,
+                                                "label" : "player_esp.chams.overlays",
+                                                "var" : "player_esp.chams[$0].overlays",
+                                                "items" : [
+                                                        "player_esp.chams.overlays.glow_fade",
+                                                        "player_esp.chams.overlays.glow_line",
+                                                        "player_esp.chams.overlays.wireframe",
+                                                        "player_esp.chams.overlays.glass",
+                                                        "player_esp.chams.overlays.animated"
+                                                ]
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "player_esp.chams.overlays_colors[0]",
+                                                "var" : "player_esp.chams[$0].overlays_colors[0]"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "player_esp.chams.overlays_colors[1]",
+                                                "var" : "player_esp.chams[$0].overlays_colors[1]"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "player_esp.chams.overlays_colors[2]",
+                                                "var" : "player_esp.chams[$0].overlays_colors[2]"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "player_esp.chams.overlays_colors[3]",
+                                                "var" : "player_esp.chams[$0].overlays_colors[3]"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "player_esp.chams.overlays_colors[4]",
+                                                "var" : "player_esp.chams[$0].overlays_colors[4]"
+                                        }
+                                ]
+                        }
+                ]
+        ]
+}

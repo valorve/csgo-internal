@@ -1,0 +1,50 @@
+{
+        "items": [
+                [
+                        {
+                                "name": "World modulation",
+                                "items": [
+                                        {
+                                                "type" : 1,
+                                                "label" : "visuals.nightmode.enable",
+                                                "var" : "visuals.nightmode.enable"
+                                        },
+                                        {
+                                                "type" : 5,
+                                                "label" : "visuals.nightmode.color",
+                                                "var" : "visuals.nightmode.color"
+                                        },
+                                        {
+                                                "type" : 5,
+                                                "label" : "visuals.nightmode.skybox_color",
+                                                "var" : "visuals.nightmode.skybox_color"
+                                        },
+                                        {
+                                                "type" : 6,
+                                                "label" : "visuals.nightmode.prop_color",
+                                                "var" : "visuals.nightmode.prop_color"
+                                        },
+                                        {
+                                                "type" : 4,
+                                                "label" : "visuals.removals",
+                                                "items" : [
+                                                        "visuals.removals.visual_recoil",
+                                                        "visuals.removals.smoke",
+                                                        "visuals.removals.flash",
+                                                        "visuals.removals.scope",
+                                                        "visuals.removals.post_processing",
+                                                        "visuals.removals.fog",
+                                                        "visuals.removals.world_shadow",
+                                                        "visuals.removals.foot_shadow",
+                                                        "visuals.removals.viewmodel_bob"
+                                                ],
+                                                "var" : "visuals.removals"
+                                        }
+                                ]
+                        }
+                ],
+                [
+
+                ]
+        ]
+}

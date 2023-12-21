@@ -1,0 +1,19 @@
+{
+        "items": [
+                [
+                        {
+                                "name": "",
+                                "items": [
+                                        {
+                                                "type" : 2,
+                                                "min" : 0,
+                                                "max" : 100,
+                                                "format_type" : 1,
+                                                "label" : "Desync",
+                                                "var" : "antiaim.triggers[$0].desync_amount"
+                                        }
+                                ]
+                        }
+                ]
+        ]
+}

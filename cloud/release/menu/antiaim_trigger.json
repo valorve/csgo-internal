@@ -1,0 +1,93 @@
+{
+        "items": [
+                [
+                        {
+                                "name": "",
+                                "items": [
+                                        {
+                                                "type" : 3,
+                                                "label" : "antiaim.trigger.pitch",
+                                                "items" : ["antiaim.trigger.pitch.down", "antiaim.trigger.pitch.random", "antiaim.trigger.pitch.jitter", "antiaim.trigger.pitch.original"],
+                                                "var" : "antiaim.triggers[$0].pitch"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "antiaim.trigger.force_off",
+                                                "var" : "antiaim.triggers[$0].force_off"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "antiaim.trigger.ignore_freestand",
+                                                "var" : "antiaim.triggers[$0].ignore_freestand"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "antiaim.trigger.ignore_manuals",
+                                                "var" : "antiaim.triggers[$0].ignore_manuals"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 0,
+                                                "max" : 100,
+                                                "format_type" : 1,
+                                                "label" : "antiaim.trigger.desync_amount",
+                                                "var" : "antiaim.triggers[$0].desync_amount"
+                                        },
+                                        {
+                                                "type" : 3,
+                                                "label" : "antiaim.trigger.align_by_target",
+                                                "items" : ["antiaim.trigger.align_by_target.off", "antiaim.trigger.align_by_target.when_on_screen", "antiaim.trigger.align_by_target.always"],
+                                                "var" : "antiaim.triggers[$0].align_by_target"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : -180,
+                                                "max" : 180,
+                                                "format_type" : 4,
+                                                "label" : "antiaim.trigger.yaw_add",
+                                                "var" : "antiaim.triggers[$0].yaw_add"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : -90,
+                                                "max" : 90,
+                                                "format_type" : 4,
+                                                "label" : "antiaim.trigger.jitter_angle",
+                                                "var" : "antiaim.triggers[$0].jitter_angle"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "antiaim.trigger.randomize_jitter",
+                                                "var" : "antiaim.triggers[$0].randomize_jitter"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "antiaim.trigger.desync_jitter",
+                                                "var" : "antiaim.triggers[$0].desync_jitter"
+                                        },
+                                        {
+                                                "type" : 1,
+                                                "label" : "antiaim.trigger.spin",
+                                                "var" : "antiaim.triggers[$0].spin"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 1,
+                                                "max" : 90,
+                                                "format_type" : 4,
+                                                "label" : "antiaim.trigger.spin_speed",
+                                                "var" : "antiaim.triggers[$0].spin_speed"
+                                        },
+                                        {
+                                                "type" : 2,
+                                                "min" : 2,
+                                                "max" : 90,
+                                                "format_type" : 4,
+                                                "label" : "antiaim.trigger.spin_range",
+                                                "var" : "antiaim.triggers[$0].spin_range"
+                                        }
+                                ]
+                        }
+                ]
+        ]
+}
